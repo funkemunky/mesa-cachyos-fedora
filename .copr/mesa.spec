@@ -1,5 +1,5 @@
 Name:           mesa
-Version:        25.1.1
+Version:        26.0.5
 Release:        1%{?dist}
 Epoch:          1
 Summary:        Open-source OpenGL, Vulkan, and OpenCL drivers
@@ -53,5 +53,5 @@ echo "%{version}-%{release}" > VERSION
 %doc docs/*
 
 %changelog
-* Thu May 29 2025 You <you@example.com> - 1:25.1.1-1
-- Import of Mesa 25.1.1 with Vulkan, VAAPI, Rusticl and documentation support based on CachyOS patches
+* Sat Apr 25 2026 You <you@example.com> - 1:26.0.5-1
+- Update to Mesa 26.0.5 based on latest CachyOS release package version

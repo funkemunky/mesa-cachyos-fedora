@@ -1,12 +1,12 @@
 %global build_repo https://github.com/llvm/llvm-project
 
-%global maj_ver 20
+%global maj_ver 22
 %global min_ver 1
-%global patch_ver 5
+%global patch_ver 3
 
-%define commit 0d6f9bf274c1bc69e71ff7dd740f2cee1a4ca769
+%define commit e9846648fd6183ee6d8cbdb4502213fcf902a211
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global commit_date 20240309
+%global commit_date 20260407
 %global gitrel .%{commit_date}.git%{shortcommit}
 %global _default_patch_fuzz 2
 
